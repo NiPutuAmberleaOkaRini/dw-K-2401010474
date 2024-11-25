@@ -1,0 +1,356 @@
+.signup-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    transform: translate(50%, 50%,);
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #2A3663;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #3a4f88;
+}
+
+/* Error message styling */
+#error-message {
+    color: red;
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+@media (max-width: 480px) {
+    .signup-container {
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .form-group input {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+}
+
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: #FFFAFA;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    text-shadow: 1px 0px 0px rgba(0, 0, 0, 0.5);
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: #CB9DF0;
+}
+
+.home img {
+    width: 1000px;
+    height:500px;
+}
+
+.courses img {
+    width: 1000px;
+    height:500px;
+}
+
+.menu {
+    float: right;
+    background: #F8F8F8;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #F7FBFD;
+    z-index: 1;
+    border: 1px solid #951cf8;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 12px 0px 12px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color:#2A3663;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #2A3663;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.signup-container {
+    background: #B3E5FC;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.tbl-biru {
+    background: #2A3D8A;
+    padding: 15px 20px;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.tbl-biru:hover {
+    background-color: #45a049;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px; 
+    color: #333333;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.tutor-list img {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-tutor {
+    display: inline-block;
+    width: 27%;
+    margin-right: 25px;
+}
+
+.kartu-tutor img {
+    border-radius: 25%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.kartu-tutor:hover {
+    transform: scale(1.05);
+}
+
+.kartu-tutor img:hover {
+    transform: translateY(-10px);  
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);  
+}
+
+.kartu-tutor p {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #2A3663;
+}
+
+.partner-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-partner {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-partner img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+#contact {
+    background: #dedede;
+    padding: 50px 0px 50px 0px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 30px;
+    color:#2A3663;
+    width: 100%;
+    line-height: 50px;   
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .kartu-tutor {
+        width: 50%;
+    }
+
+    .kartu-partner {
+        width: 50%;
+    }
+}
